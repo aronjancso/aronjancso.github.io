@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #2e7eaa url(images/background.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+	text-align: center;
+}
+
+.centered {
+	width: 1000px;
+	margin: auto;
+}
+
+a {
+	text-decoration: underline;
+	color: #2B2522;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+input {
+	border: 1px solid #aaaaaa;
+	background-color: white;
+}
+
+button {
+	border: 1px solid #aaaaaa;
+	background-color: white;
+}
+
+.header {
+	height: 100;
+	margin-top: 40px;
+}
+
+.headerTitle {
+	width: 495px;
+	float: left;
+	text-align: left;
+	color: white;
+	font-family: Impact;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.menu {
+	width: 495px;
+	height: 60px;
+	line-height: 60px;
+	float: right;
+	text-align: right;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	border: 1px solid #4B402E;
+	padding: 6px 10px 6px 10px;
+	background: #4B402E;
+	margin-left: 10px;
+}
+
+.main {
+	width: 1000px;
+}
+
+.main .content {
+	width: 745px;
+	max-width: 745px;
+	float: left;
+	padding: 0px 5px 5px 5px;
+	margin-right: 10px;
+	background-color: white;
+	text-align: left;
+	border-radius: 3px;
+}
+
+.main content h2 {
+	border-bottom: 1px solid gray;
+	margin-right:50px;
+	font-weight: normal;
+	
+}
+
+.main .sidebar {
+	width: 235px;
+	float: right;
+	text-align: left;
+	color: white;
+}
+
+.main .sidebar h2 {
+	height: 31px;
+	padding: 12px 0px 0px 20px;
+	background-color: #2D2722;
+	border-radius: 7px;
+	text-shadow: #203060 -1px 1px 2px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: -.5px;
+	font-size: 1em;
+	font-weight: normal;
+	color: white;
+}
+
+.main .sidebar div {
+	background-color: white;
+	border-radius: 7px;
+	padding-bottom: 3px;
+	color: #3C3D3F;
+}
+
+.main .sidebar a {
+	text-decoration: none;
+	color: #3C3D3F;
+}
+
+.main .sidebar a:hover {
+	text-decoration: underline;
+}
+
+.main .footer {
+	float: left;
+	width: 985px;
+	padding: 5px 5px 5px 5px;
+	margin-top: 10px;
+	background-color: white;
+	text-align: center;
+	border-radius: 3px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.main .footer a {
+	text-decoration: none;
+	color: #3C3D3F;
+}
+
+.main .footer a:hover {
+	text-decoration: underline;
+}
+
+/* Contact form */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #3578E5;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+  
+input[type=submit]:hover {
+	background-color: #3578E5;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
